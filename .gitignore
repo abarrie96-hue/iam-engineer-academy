@@ -1,0 +1,38 @@
+# Secrets and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+*.p12
+*.tfvars
+*.tfvars.json
+*secret*.json
+*credentials*.json
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+*.tfplan
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# PowerShell / editor temporary files
+*.tmp
+*.bak
+
+# Operating system
+.DS_Store
+Thumbs.db
